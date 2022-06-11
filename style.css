@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.user-container{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: row;
+    gap : 24px;
+    background-color: whitesmoke;
+    color: #024656;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    max-width: 400px;
+    border-radius:10px;
+    font-size:20px;
+    filter: brightness(110%);
+    transition: 0.5s;
+}
+
+.user-container img{
+    border-radius: 50%;
+}
+.user-name{
+    background: linear-gradient(to right, rgb(215, 108, 108), rgb(108, 122, 215));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.user-container:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+.user-form{
+    display:flex;
+    flex-direction: column;
+    gap : 10px;
+    /* max-width:500px; */
+    min-width: 400px;
+    max-width: 500px;
+    
+}
